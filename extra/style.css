@@ -5,12 +5,31 @@
         
         .naa{
             display: none;
+			width: 33.3%;
+			padding-left: 14%;			
         }
-        @media(min-width:768px){
+        @media(min-width:992px){
         .naa{
             display: flex;
         }
+        .DPvwYc {
+            font-family: 'Material Icons Extended';
+            font-weight: normal;
+            font-style: normal;
+            font-size: 22px !important;
+            line-height: 1;
+            letter-spacing: normal;
+            text-rendering: optimizeLegibility;
+            text-transform: none;
+            display: inline-block;
+            word-wrap: normal;
+            direction: ltr;
+            font-feature-settings: 'liga' 1;
+        }        
+		
         }
+		
+		
                 /* fallback */
         @font-face {
         font-family: 'Material Icons Extended';
@@ -38,7 +57,7 @@
 	font-family: 'Material Icons Extended';
 	font-weight: normal;
 	font-style: normal;
-	font-size: 22px;
+	font-size: 34px;
 	line-height: 1;
 	letter-spacing: normal;
 	text-rendering: optimizeLegibility;
@@ -52,13 +71,12 @@
         font-size: 17px;
         padding: 0 12px;
     }
-    ul{
+    .tt{
         width: 60%;
     }
     li{
         cursor: pointer;
-        width: 33.3%;
-        padding-left: 14%;
+
     }
     .navbar{
         box-shadow: 0 0 0 .6px #5b5b5b47;
@@ -90,3 +108,7 @@
     -webkit-transform: rotate(45deg) translate(-8px, -8px);
     transform: rotate(45deg) translate(-5px, -8px);
     }    
+
+    .pl-3 {
+	padding-left: 1.3rem !important;
+}
