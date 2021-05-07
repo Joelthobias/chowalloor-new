@@ -1,0 +1,92 @@
+       a{
+            text-decoration: none;
+            color: #000;
+        }
+        
+        .naa{
+            display: none;
+        }
+        @media(min-width:768px){
+        .naa{
+            display: flex;
+        }
+        }
+                /* fallback */
+        @font-face {
+        font-family: 'Material Icons Extended';
+        font-style: normal;
+        font-weight: 400;
+        src: url(https://fonts.gstatic.com/s/materialiconsextended/v95/kJEjBvgX7BgnkSrUwT8UnLVc38YydejYY-oE_LvJ.woff2) format('woff2');
+        }
+
+        .material-icons-extended {
+        font-family: 'Material Icons Extended';
+        font-weight: normal;
+        font-style: normal;
+        font-size: 24px;
+        line-height: 1;
+        letter-spacing: normal;
+        text-transform: none;
+        display: inline-block;
+        white-space: nowrap;
+        word-wrap: normal;
+        direction: ltr;
+        -moz-font-feature-settings: 'liga';
+        -moz-osx-font-smoothing: grayscale;
+        }
+        .DPvwYc {
+	font-family: 'Material Icons Extended';
+	font-weight: normal;
+	font-style: normal;
+	font-size: 22px;
+	line-height: 1;
+	letter-spacing: normal;
+	text-rendering: optimizeLegibility;
+	text-transform: none;
+	display: inline-block;
+	word-wrap: normal;
+	direction: ltr;
+	font-feature-settings: 'liga' 1;
+    }
+    .dtKbfb .xPRkMe {
+        font-size: 17px;
+        padding: 0 12px;
+    }
+    ul{
+        width: 60%;
+    }
+    li{
+        cursor: pointer;
+        width: 33.3%;
+        padding-left: 14%;
+    }
+    .navbar{
+        box-shadow: 0 0 0 .6px #5b5b5b47;
+    }
+    .offcanvas-start {
+        top: 54px;
+        left: 0;
+        width: 400px;
+        border-right: 1px solid rgba(0,0,0,.2);
+        transform: translateX(-10%);
+        transition-delay: 2ms;
+    }
+    .bar1, .bar2, .bar3 {
+    width: 20px;
+    height: 2px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+    }
+
+    .change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-4px, 6px);
+    }
+
+    .change .bar2 {opacity: 0;}
+
+    .change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-5px, -8px);
+    }    
