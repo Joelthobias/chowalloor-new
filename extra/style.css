@@ -12,6 +12,7 @@
         .naa{
             display: flex;
         }
+        
         .DPvwYc {
             font-family: 'Material Icons Extended';
             font-weight: normal;
@@ -27,6 +28,11 @@
             font-feature-settings: 'liga' 1;
         }        
 		
+        }
+        @media(max-width:992px){
+        footer{
+        margin-bottom: 5em;
+        }            
         }
 		
 		
@@ -119,4 +125,17 @@
 	bottom: -8px;
 	left: 0;
 	z-index: 1030;
+}
+.ba{
+    margin-top: 75px;
+}
+.cal,.ad {
+	font-weight: bolder;
+}
+
+.fb{
+    background-color: #f0f0f0;
+}
+small,.small{
+    font-size: .8rem;
 }
