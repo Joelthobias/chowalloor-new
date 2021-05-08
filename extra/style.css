@@ -82,9 +82,10 @@
         box-shadow: 0 0 0 .6px #5b5b5b47;
     }
     .offcanvas-start {
-        top: 54px;
+        top: 61px;
         left: 0;
         width: 400px;
+        max-width: 70%;
         border-right: 1px solid rgba(0,0,0,.2);
         transform: translateX(-10%);
         transition-delay: 2ms;
