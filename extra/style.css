@@ -85,7 +85,7 @@
 
     }
     .navbar{
-        box-shadow: 0 0 0 .6px #5b5b5b47;
+        box-shadow: 0px 12px 8px 0px rgba(7, 6, 6, 0.15) !important;
     }
     .offcanvas-start {
         top: 65px;
